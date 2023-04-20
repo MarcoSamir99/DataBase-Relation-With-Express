@@ -9,7 +9,7 @@ const Farm = require('./models/farm')
 const categories = ['fruit', 'vegetable', 'dairy'];
 
 
-mongoose.connect('mongodb://localhost:27017/farmStandTake2', { useNewUrlParser: true })
+mongoose.connect('mongodb://localhost:27017/farmStand2', { useNewUrlParser: true })
     .then(() => {
         console.log("MONGO CONNECTION OPEN!!!")
     })
